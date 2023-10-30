@@ -14,12 +14,12 @@ const Anasayfa = (props) => {
           <section className="anasayfa-cover">
             <div className="anasayfa-covercorner">
               <div className="anasayfa-covertexts">
-                <span className="anasayfa-text">
+                <h3 className="anasayfa-text">
                   <span>Her Parçada Zerafet</span>
-                </span>
-                <span className="anasayfa-text002">
+                </h3>
+                <h1 className="anasayfa-text002">
                   <span>İçinizdeki Kadın İçin Mücevherler</span>
-                </span>
+                </h1>
                 <span className="anasayfa-text004">
                   <span>
                     En Şık Kaliteli, Takı Ve Aksesuarları Sizin İçin Seçtik.
@@ -50,9 +50,9 @@ const Anasayfa = (props) => {
             />
             <div className="anasayfa-bodycorner">
               <div className="anasayfa-bodytexts">
-                <span className="anasayfa-text010">
+                <h3 className="anasayfa-text010">
                   <span>Şık Takılar ile stilinize zarafet katın.</span>
-                </span>
+                </h3>
                 <span className="anasayfa-text012">
                   <span>SAKURA</span>
                 </span>
@@ -88,12 +88,12 @@ const Anasayfa = (props) => {
           <section className="anasayfa-featuredsection">
             <div className="anasayfa-sectiontitle">
               <div className="anasayfa-sectiontitle1">
-                <span className="anasayfa-text022">
+                <h3 className="anasayfa-text022">
                   <span>En yeni ürünlerimizle şık görünün!</span>
-                </span>
-                <span className="anasayfa-text024">
+                </h3>
+                <h2 className="anasayfa-text024">
                   <span>ÖNE ÇIKAN ÜRÜNLER</span>
-                </span>
+                </h2>
                 <span className="anasayfa-text026">
                   <span>
                     Favorilerimiz arasından seçilmiş takılarla kendinizi özel
@@ -119,51 +119,7 @@ const Anasayfa = (props) => {
                   src="/external/vector3558-aig.svg"
                   className="anasayfa-vector1"
                 />
-                <div className="anasayfa-productlist1">
-                  <div className="anasayfa-product">
-                    <img
-                      alt="IMAGEI137"
-                      src="/external/imagei137-70pq-200h.png"
-                      className="anasayfa-image01"
-                    />
-                    <div className="anasayfa-texts">
-                      <div className="anasayfa-producttext">
-                        <span className="anasayfa-text028">
-                          <span>Altın Harf Kolye – Özel Tasarım H Kolye</span>
-                        </span>
-                        <span className="anasayfa-text030">
-                          <span>Yüzükler</span>
-                        </span>
-                      </div>
-                      <div className="anasayfa-productprice">
-                        <div className="anasayfa-oldprice">
-                          <span className="anasayfa-text032">₺</span>
-                          <span className="anasayfa-text033">
-                            <span>3.000,00</span>
-                          </span>
-                        </div>
-                        <div className="anasayfa-newprice">
-                          <span className="anasayfa-text035">₺</span>
-                          <span className="anasayfa-text036">
-                            <span>2.500,00</span>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="anasayfa-ribbons">
-                      <div className="anasayfa-soldout">
-                        <span className="anasayfa-text038">
-                          <span>Tükendİ</span>
-                        </span>
-                      </div>
-                      <div className="anasayfa-ribbona">
-                        <span className="anasayfa-text040">
-                          <span>Yenİ</span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <div className="anasayfa-productlist1"></div>
               </div>
             </div>
           </section>
@@ -171,14 +127,14 @@ const Anasayfa = (props) => {
             <img
               alt="IMAGE1614"
               src="/external/image1614-zrqq-400h.png"
-              className="anasayfa-image02"
+              className="anasayfa-image01"
             />
             <div className="anasayfa-slogan">
               <div className="anasayfa-slogan1">
-                <span className="anasayfa-text042">
+                <h2 className="anasayfa-text028">
                   <span>En Çok Talep Gören Ürünlerimizi Takip Edin</span>
-                </span>
-                <span className="anasayfa-text044">
+                </h2>
+                <span className="anasayfa-text030">
                   <span>
                     Sosyal medya hesaplarımızı takip ederek yeni ürünlerimizi
                     keşfedin ve trendleri yakından takip edin.
@@ -190,7 +146,7 @@ const Anasayfa = (props) => {
                     src="/external/rectangle1614-3k2b-200w.png"
                     className="anasayfa-rectangle"
                   />
-                  <span className="anasayfa-text046">
+                  <span className="anasayfa-text032">
                     <span>
                       Bir mücevher, her zaman bir hikaye anlatır ve bu hikaye,
                       onu takan kişinin benzersizliğini yansıtır.
@@ -220,7 +176,7 @@ const Anasayfa = (props) => {
                     className="anasayfa-instagramicon"
                   />
                 </div>
-                <span className="anasayfa-text048">
+                <span className="anasayfa-text034">
                   <span>Sakura Gold</span>
                 </span>
               </div>
@@ -229,13 +185,13 @@ const Anasayfa = (props) => {
           <section className="anasayfa-wedding">
             <div className="anasayfa-sectiontitle2">
               <div className="anasayfa-sectiontitle3">
-                <span className="anasayfa-text050">
+                <h3 className="anasayfa-text036">
                   <span>Bir Ömür Boyu Sürecek</span>
-                </span>
-                <span className="anasayfa-text052">
+                </h3>
+                <h2 className="anasayfa-text038">
                   <span>NİŞAN &amp; DÜĞÜN</span>
-                </span>
-                <span className="anasayfa-text054">
+                </h2>
+                <span className="anasayfa-text040">
                   <span>
                     Aşkın taçlandığı, geleceğe dair umutların paylaşıldığı özel
                     bir gün
@@ -244,10 +200,53 @@ const Anasayfa = (props) => {
               </div>
             </div>
             <div className="anasayfa-productlist2">
-              <div className="anasayfa-product01">
+              <div className="anasayfa-product">
                 <img
                   alt="IMAGEI222"
                   src="/external/imagei222-u5j-200h.png"
+                  className="anasayfa-image02"
+                />
+                <div className="anasayfa-texts">
+                  <div className="anasayfa-producttext">
+                    <span className="anasayfa-text042">
+                      <span>Altın Harf Kolye – Özel Tasarım H Kolye</span>
+                    </span>
+                    <span className="anasayfa-text044">
+                      <span>Yüzükler</span>
+                    </span>
+                  </div>
+                  <div className="anasayfa-productprice">
+                    <div className="anasayfa-oldprice">
+                      <span className="anasayfa-text046">₺</span>
+                      <span className="anasayfa-text047">
+                        <span>3.000,00</span>
+                      </span>
+                    </div>
+                    <div className="anasayfa-newprice">
+                      <span className="anasayfa-text049">₺</span>
+                      <span className="anasayfa-text050">
+                        <span>2.500,00</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div className="anasayfa-ribbons">
+                  <div className="anasayfa-soldout">
+                    <span className="anasayfa-text052">
+                      <span>Tükendİ</span>
+                    </span>
+                  </div>
+                  <div className="anasayfa-ribbona">
+                    <span className="anasayfa-text054">
+                      <span>Yenİ</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="anasayfa-product01">
+                <img
+                  alt="IMAGEI222"
+                  src="/external/imagei222-26xt-200h.png"
                   className="anasayfa-image03"
                 />
                 <div className="anasayfa-texts01">
@@ -290,7 +289,7 @@ const Anasayfa = (props) => {
               <div className="anasayfa-product02">
                 <img
                   alt="IMAGEI222"
-                  src="/external/imagei222-26xt-200h.png"
+                  src="/external/imagei222-fw3s-200h.png"
                   className="anasayfa-image04"
                 />
                 <div className="anasayfa-texts02">
@@ -333,7 +332,7 @@ const Anasayfa = (props) => {
               <div className="anasayfa-product03">
                 <img
                   alt="IMAGEI222"
-                  src="/external/imagei222-fw3s-200h.png"
+                  src="/external/imagei222-3g5g-200h.png"
                   className="anasayfa-image05"
                 />
                 <div className="anasayfa-texts03">
@@ -373,71 +372,28 @@ const Anasayfa = (props) => {
                   </div>
                 </div>
               </div>
-              <div className="anasayfa-product04">
-                <img
-                  alt="IMAGEI222"
-                  src="/external/imagei222-3g5g-200h.png"
-                  className="anasayfa-image06"
-                />
-                <div className="anasayfa-texts04">
-                  <div className="anasayfa-producttext4">
-                    <span className="anasayfa-text098">
-                      <span>Altın Harf Kolye – Özel Tasarım H Kolye</span>
-                    </span>
-                    <span className="anasayfa-text100">
-                      <span>Yüzükler</span>
-                    </span>
-                  </div>
-                  <div className="anasayfa-productprice04">
-                    <div className="anasayfa-oldprice04">
-                      <span className="anasayfa-text102">₺</span>
-                      <span className="anasayfa-text103">
-                        <span>3.000,00</span>
-                      </span>
-                    </div>
-                    <div className="anasayfa-newprice04">
-                      <span className="anasayfa-text105">₺</span>
-                      <span className="anasayfa-text106">
-                        <span>2.500,00</span>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div className="anasayfa-ribbons4">
-                  <div className="anasayfa-soldout4">
-                    <span className="anasayfa-text108">
-                      <span>Tükendİ</span>
-                    </span>
-                  </div>
-                  <div className="anasayfa-ribbona4">
-                    <span className="anasayfa-text110">
-                      <span>Yenİ</span>
-                    </span>
-                  </div>
-                </div>
-              </div>
             </div>
           </section>
           <section className="anasayfa-indirimsection">
             <img
               alt="IMAGE2230"
-              src="/external/image2230-eiw-400h.png"
-              className="anasayfa-image07"
+              src="/external/image2230-eiw-200h.png"
+              className="anasayfa-image06"
             />
             <div className="anasayfa-indirimcorner">
-              <div className="anasayfa-texts05">
+              <div className="anasayfa-texts04">
                 <div className="anasayfa-subtitle">
-                  <span className="anasayfa-text112">
+                  <h2 className="anasayfa-text098">
                     <span>20%</span>
-                  </span>
-                  <span className="anasayfa-text114">
+                  </h2>
+                  <h2 className="anasayfa-text100">
                     <span>İNDİRİM</span>
-                  </span>
+                  </h2>
                 </div>
-                <span className="anasayfa-text116">
+                <h2 className="anasayfa-text102">
                   <span>TÜM ALTIN YÜZÜKLERDE</span>
-                </span>
-                <span className="anasayfa-text118">
+                </h2>
+                <span className="anasayfa-text104">
                   <span>
                     Tarzınıza ve bütçenize uygun altın yüzükler şimdi çok daha
                     uygun fiyatlarla! Tüm altın yüzüklerde geçerli %20 indirim
@@ -449,12 +405,12 @@ const Anasayfa = (props) => {
               </div>
               <div className="anasayfa-btns1">
                 <button className="anasayfa-button4">
-                  <span className="anasayfa-text120">
+                  <span className="anasayfa-text106">
                     <span>SATIN AL</span>
                   </span>
                 </button>
                 <button className="anasayfa-button5">
-                  <span className="anasayfa-text122">
+                  <span className="anasayfa-text108">
                     <span>DAHA FAZLA</span>
                   </span>
                 </button>
@@ -463,23 +419,23 @@ const Anasayfa = (props) => {
           </section>
           <section className="anasayfa-teklifsection">
             <div className="anasayfa-teklifcorner">
-              <div className="anasayfa-texts06">
-                <div className="anasayfa-texts07">
-                  <span className="anasayfa-text124">
+              <div className="anasayfa-texts05">
+                <div className="anasayfa-texts06">
+                  <h2 className="anasayfa-text110">
                     <span>Özel Teklif</span>
-                  </span>
-                  <span className="anasayfa-text126">
+                  </h2>
+                  <h3 className="anasayfa-text112">
                     <span>Pırlanta</span>
-                  </span>
-                  <span className="anasayfa-text128">
+                  </h3>
+                  <h3 className="anasayfa-text114">
                     <span>Kolye</span>
-                  </span>
-                  <span className="anasayfa-text130">
+                  </h3>
+                  <span className="anasayfa-text116">
                     <span>Zarafetin simgesi pırlanta kolye</span>
                   </span>
                 </div>
                 <button className="anasayfa-button6">
-                  <span className="anasayfa-text132">
+                  <span className="anasayfa-text118">
                     <span>SATIN AL</span>
                   </span>
                 </button>
@@ -487,32 +443,60 @@ const Anasayfa = (props) => {
             </div>
             <div className="anasayfa-teklifproducts">
               <div className="anasayfa-onecikan">
-                <span className="anasayfa-text134">
+                <h2 className="anasayfa-text120">
                   <span>ÖNE ÇIKAN ÜRÜNLER</span>
-                </span>
+                </h2>
                 <div className="anasayfa-productlist3">
-                  <div className="anasayfa-product05">
+                  <div className="anasayfa-product04">
                     <img
                       alt="IMAGEI252"
                       src="/external/imagei252-hltp-200h.png"
+                      className="anasayfa-image07"
+                    />
+                    <div className="anasayfa-texts07">
+                      <span className="anasayfa-text122">
+                        <span>
+                          Pırlanta Beştaş Yüzük - Zamansız ve Şık Tasarım
+                        </span>
+                      </span>
+                      <div className="anasayfa-productprice04">
+                        <div className="anasayfa-oldprice04">
+                          <span className="anasayfa-text124">₺</span>
+                          <span className="anasayfa-text125">
+                            <span>3.000,00</span>
+                          </span>
+                        </div>
+                        <div className="anasayfa-newprice04">
+                          <span className="anasayfa-text127">₺</span>
+                          <span className="anasayfa-text128">
+                            <span>2.500,00</span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="anasayfa-product05">
+                    <img
+                      alt="IMAGEI252"
+                      src="/external/imagei252-8hfl-200h.png"
                       className="anasayfa-image08"
                     />
                     <div className="anasayfa-texts08">
-                      <span className="anasayfa-text136">
+                      <span className="anasayfa-text130">
                         <span>
                           Pırlanta Beştaş Yüzük - Zamansız ve Şık Tasarım
                         </span>
                       </span>
                       <div className="anasayfa-productprice05">
                         <div className="anasayfa-oldprice05">
-                          <span className="anasayfa-text138">₺</span>
-                          <span className="anasayfa-text139">
+                          <span className="anasayfa-text132">₺</span>
+                          <span className="anasayfa-text133">
                             <span>3.000,00</span>
                           </span>
                         </div>
                         <div className="anasayfa-newprice05">
-                          <span className="anasayfa-text141">₺</span>
-                          <span className="anasayfa-text142">
+                          <span className="anasayfa-text135">₺</span>
+                          <span className="anasayfa-text136">
                             <span>2.500,00</span>
                           </span>
                         </div>
@@ -522,53 +506,25 @@ const Anasayfa = (props) => {
                   <div className="anasayfa-product06">
                     <img
                       alt="IMAGEI252"
-                      src="/external/imagei252-8hfl-200h.png"
+                      src="/external/imagei252-7de-200h.png"
                       className="anasayfa-image09"
                     />
                     <div className="anasayfa-texts09">
-                      <span className="anasayfa-text144">
+                      <span className="anasayfa-text138">
                         <span>
                           Pırlanta Beştaş Yüzük - Zamansız ve Şık Tasarım
                         </span>
                       </span>
                       <div className="anasayfa-productprice06">
                         <div className="anasayfa-oldprice06">
-                          <span className="anasayfa-text146">₺</span>
-                          <span className="anasayfa-text147">
+                          <span className="anasayfa-text140">₺</span>
+                          <span className="anasayfa-text141">
                             <span>3.000,00</span>
                           </span>
                         </div>
                         <div className="anasayfa-newprice06">
-                          <span className="anasayfa-text149">₺</span>
-                          <span className="anasayfa-text150">
-                            <span>2.500,00</span>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="anasayfa-product07">
-                    <img
-                      alt="IMAGEI252"
-                      src="/external/imagei252-7de-200h.png"
-                      className="anasayfa-image10"
-                    />
-                    <div className="anasayfa-texts10">
-                      <span className="anasayfa-text152">
-                        <span>
-                          Pırlanta Beştaş Yüzük - Zamansız ve Şık Tasarım
-                        </span>
-                      </span>
-                      <div className="anasayfa-productprice07">
-                        <div className="anasayfa-oldprice07">
-                          <span className="anasayfa-text154">₺</span>
-                          <span className="anasayfa-text155">
-                            <span>3.000,00</span>
-                          </span>
-                        </div>
-                        <div className="anasayfa-newprice07">
-                          <span className="anasayfa-text157">₺</span>
-                          <span className="anasayfa-text158">
+                          <span className="anasayfa-text143">₺</span>
+                          <span className="anasayfa-text144">
                             <span>2.500,00</span>
                           </span>
                         </div>
@@ -578,32 +534,60 @@ const Anasayfa = (props) => {
                 </div>
               </div>
               <div className="anasayfa-yeniurunler">
-                <span className="anasayfa-text160">
+                <h2 className="anasayfa-text146">
                   <span>YENİ ÜRÜNLER</span>
-                </span>
+                </h2>
                 <div className="anasayfa-productlist4">
-                  <div className="anasayfa-product08">
+                  <div className="anasayfa-product07">
                     <img
                       alt="IMAGEI252"
                       src="/external/imagei252-uwp7-200h.png"
+                      className="anasayfa-image10"
+                    />
+                    <div className="anasayfa-texts10">
+                      <span className="anasayfa-text148">
+                        <span>
+                          Pırlanta Beştaş Yüzük - Zamansız ve Şık Tasarım
+                        </span>
+                      </span>
+                      <div className="anasayfa-productprice07">
+                        <div className="anasayfa-oldprice07">
+                          <span className="anasayfa-text150">₺</span>
+                          <span className="anasayfa-text151">
+                            <span>3.000,00</span>
+                          </span>
+                        </div>
+                        <div className="anasayfa-newprice07">
+                          <span className="anasayfa-text153">₺</span>
+                          <span className="anasayfa-text154">
+                            <span>2.500,00</span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="anasayfa-product08">
+                    <img
+                      alt="IMAGEI252"
+                      src="/external/imagei252-1ti-200h.png"
                       className="anasayfa-image11"
                     />
                     <div className="anasayfa-texts11">
-                      <span className="anasayfa-text162">
+                      <span className="anasayfa-text156">
                         <span>
                           Pırlanta Beştaş Yüzük - Zamansız ve Şık Tasarım
                         </span>
                       </span>
                       <div className="anasayfa-productprice08">
                         <div className="anasayfa-oldprice08">
-                          <span className="anasayfa-text164">₺</span>
-                          <span className="anasayfa-text165">
+                          <span className="anasayfa-text158">₺</span>
+                          <span className="anasayfa-text159">
                             <span>3.000,00</span>
                           </span>
                         </div>
                         <div className="anasayfa-newprice08">
-                          <span className="anasayfa-text167">₺</span>
-                          <span className="anasayfa-text168">
+                          <span className="anasayfa-text161">₺</span>
+                          <span className="anasayfa-text162">
                             <span>2.500,00</span>
                           </span>
                         </div>
@@ -613,53 +597,25 @@ const Anasayfa = (props) => {
                   <div className="anasayfa-product09">
                     <img
                       alt="IMAGEI252"
-                      src="/external/imagei252-1ti-200h.png"
+                      src="/external/imagei252-8df7-200h.png"
                       className="anasayfa-image12"
                     />
                     <div className="anasayfa-texts12">
-                      <span className="anasayfa-text170">
+                      <span className="anasayfa-text164">
                         <span>
                           Pırlanta Beştaş Yüzük - Zamansız ve Şık Tasarım
                         </span>
                       </span>
                       <div className="anasayfa-productprice09">
                         <div className="anasayfa-oldprice09">
-                          <span className="anasayfa-text172">₺</span>
-                          <span className="anasayfa-text173">
+                          <span className="anasayfa-text166">₺</span>
+                          <span className="anasayfa-text167">
                             <span>3.000,00</span>
                           </span>
                         </div>
                         <div className="anasayfa-newprice09">
-                          <span className="anasayfa-text175">₺</span>
-                          <span className="anasayfa-text176">
-                            <span>2.500,00</span>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="anasayfa-product10">
-                    <img
-                      alt="IMAGEI252"
-                      src="/external/imagei252-8df7-200h.png"
-                      className="anasayfa-image13"
-                    />
-                    <div className="anasayfa-texts13">
-                      <span className="anasayfa-text178">
-                        <span>
-                          Pırlanta Beştaş Yüzük - Zamansız ve Şık Tasarım
-                        </span>
-                      </span>
-                      <div className="anasayfa-productprice10">
-                        <div className="anasayfa-oldprice10">
-                          <span className="anasayfa-text180">₺</span>
-                          <span className="anasayfa-text181">
-                            <span>3.000,00</span>
-                          </span>
-                        </div>
-                        <div className="anasayfa-newprice10">
-                          <span className="anasayfa-text183">₺</span>
-                          <span className="anasayfa-text184">
+                          <span className="anasayfa-text169">₺</span>
+                          <span className="anasayfa-text170">
                             <span>2.500,00</span>
                           </span>
                         </div>
@@ -672,13 +628,13 @@ const Anasayfa = (props) => {
           </section>
           <section className="anasayfa-kesfetsection">
             <div className="anasayfa-sectiontitle4">
-              <span className="anasayfa-text186">
+              <h3 className="anasayfa-text172">
                 <span>Keşfedin ve Satın Alın</span>
-              </span>
-              <span className="anasayfa-text188">
+              </h3>
+              <h2 className="anasayfa-text174">
                 <span>İNSTAGRAM&apos;DAN ALIŞVERİŞ YAPIN</span>
-              </span>
-              <span className="anasayfa-text190">
+              </h2>
+              <span className="anasayfa-text176">
                 <span>
                   Instagram&apos;dan alışveriş yapın, tarzınızı keşfedin!
                 </span>
@@ -689,22 +645,22 @@ const Anasayfa = (props) => {
                 <img
                   alt="IMAGE2532"
                   src="/external/image2532-ffxe-300h.png"
-                  className="anasayfa-image14"
+                  className="anasayfa-image13"
                 />
                 <img
                   alt="IMAGE2532"
                   src="/external/image2532-ffpf-300h.png"
-                  className="anasayfa-image15"
+                  className="anasayfa-image14"
                 />
                 <img
                   alt="IMAGE2532"
                   src="/external/image2532-mly8-300h.png"
-                  className="anasayfa-image16"
+                  className="anasayfa-image15"
                 />
                 <img
                   alt="IMAGE2532"
                   src="/external/image2532-6ajk-300h.png"
-                  className="anasayfa-image17"
+                  className="anasayfa-image16"
                 />
               </div>
               <div className="anasayfa-dots">
@@ -727,14 +683,14 @@ const Anasayfa = (props) => {
             </div>
           </section>
           <section className="anasayfa-kayitsection">
-            <div className="anasayfa-bultencorner">
-              <div className="anasayfa-texts14">
-                <span className="anasayfa-text192">
+            <form className="anasayfa-form">
+              <div className="anasayfa-texts13">
+                <h2 className="anasayfa-text178">
                   <span>
                     Bize katılın %20&apos;ye kadar indirimlerden faydalanın.
                   </span>
-                </span>
-                <span className="anasayfa-text194">
+                </h2>
+                <span className="anasayfa-text180">
                   <span>
                     Sizi özel fırsatlarla dolu bir dünyaya davet ediyoruz! Bize
                     katılın ve her ay %20&apos;ye kadar indirimlerden
@@ -744,28 +700,26 @@ const Anasayfa = (props) => {
                 </span>
               </div>
               <div className="anasayfa-kayitol">
-                <img
-                  alt="Rectangle2533"
-                  src="/external/rectangle2533-c6yf-200h.png"
-                  className="anasayfa-rectangle1"
+                <input
+                  type="text"
+                  placeholder="E Posta Adresi"
+                  className="anasayfa-textinput input"
                 />
-                <div className="anasayfa-btn">
-                  <span className="anasayfa-text196">
-                    <span>KAYIT OL</span>
-                  </span>
-                </div>
+                <button type="submit" className="anasayfa-button7 button">
+                  KAYIT OL
+                </button>
               </div>
-            </div>
+            </form>
             <div className="anasayfa-bultentexts">
-              <span className="anasayfa-text198">
+              <h3 className="anasayfa-text182">
                 <span>MÜŞTERİLERİMİZ NE DİYOR</span>
-              </span>
+              </h3>
               <img
                 alt="IMAGE2534"
                 src="/external/image2534-by0g-200h.png"
-                className="anasayfa-image18"
+                className="anasayfa-image17"
               />
-              <span className="anasayfa-text200">
+              <span className="anasayfa-text184">
                 <span>
                   Sakura Gold, harika bir hizmet sunuyor! İlk kez buradan bir
                   yüzük satın aldım ve ürünün kalitesi beni gerçekten etkiledi.
@@ -777,10 +731,10 @@ const Anasayfa = (props) => {
                 </span>
               </span>
               <div className="anasayfa-name">
-                <span className="anasayfa-text202">
+                <span className="anasayfa-text186">
                   <span>Ayşe G.</span>
                 </span>
-                <span className="anasayfa-text204">
+                <span className="anasayfa-text188">
                   <span>Mutlu Müşteri</span>
                 </span>
               </div>
@@ -809,10 +763,10 @@ const Anasayfa = (props) => {
                         </div>
                       </div>
                       <div className="anasayfa-address1">
-                        <span className="anasayfa-text206">
+                        <span className="anasayfa-text190">
                           <span>Merdivenköy Mahallesi Seyhan Sokak</span>
                         </span>
-                        <span className="anasayfa-text208">
+                        <span className="anasayfa-text192">
                           <span>Brooklyn Park C/152 Kadıköy/İstanbul</span>
                         </span>
                       </div>
@@ -827,7 +781,7 @@ const Anasayfa = (props) => {
                           />
                         </div>
                       </div>
-                      <span className="anasayfa-text210">
+                      <span className="anasayfa-text194">
                         <span>Phone: (544) 224-1449</span>
                       </span>
                     </div>
@@ -836,33 +790,33 @@ const Anasayfa = (props) => {
               </div>
               <div className="anasayfa-footerlinks">
                 <div>
-                  <span className="anasayfa-text212">
+                  <span className="anasayfa-text196">
                     <span>Kurumsal</span>
                   </span>
                   <div className="anasayfa-links">
-                    <span className="anasayfa-text214">
+                    <span className="anasayfa-text198">
                       <span>Hakkımızda</span>
                     </span>
-                    <span className="anasayfa-text216">
+                    <span className="anasayfa-text200">
                       <span>İletişim</span>
                     </span>
                   </div>
                 </div>
                 <div className="anasayfa-links2">
-                  <span className="anasayfa-text218">
+                  <span className="anasayfa-text202">
                     <span>Faydalı Bağlantılar</span>
                   </span>
                   <div className="anasayfa-links1 anasayfa-links1">
-                    <span className="anasayfa-text220">
+                    <span className="anasayfa-text204">
                       <span>Gizlilik Politikası</span>
                     </span>
-                    <span className="anasayfa-text222">
+                    <span className="anasayfa-text206">
                       <span>İade ve Değişim</span>
                     </span>
-                    <span className="anasayfa-text224">
+                    <span className="anasayfa-text208">
                       <span>şartlar ve koşullar</span>
                     </span>
-                    <span className="anasayfa-text226">
+                    <span className="anasayfa-text210">
                       <span>Site Haritası</span>
                     </span>
                   </div>
@@ -873,16 +827,16 @@ const Anasayfa = (props) => {
               <img
                 alt="Rectangle2833"
                 src="/external/rectangle2833-erb51e-200h.png"
-                className="anasayfa-rectangle2"
+                className="anasayfa-rectangle1"
               />
               <div className="anasayfa-copyright">
-                <span className="anasayfa-text228">
+                <span className="anasayfa-text212">
                   2023 Sakura Gold. Tüm hakları saklıdır.
                 </span>
                 <img
                   alt="IMAGE2833"
                   src="/external/image2833-qvi8-200h.png"
-                  className="anasayfa-image19"
+                  className="anasayfa-image18"
                 />
               </div>
             </div>
@@ -911,13 +865,14 @@ const Anasayfa = (props) => {
           }
           .anasayfa-cover {
             gap: 10px;
-            height: auto;
+            height: 100vh;
             display: flex;
+            padding: 150px;
             align-self: stretch;
             align-items: flex-end;
             padding-top: var(--dl-space-space-sixunits);
-            padding-left: var(--dl-space-space-fourunits);
-            padding-right: var(--dl-space-space-fourunits);
+            padding-left: var(--dl-space-space-sixunits);
+            padding-right: var(--dl-space-space-sixunits);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-sixunits);
             background-size: cover;
@@ -1240,8 +1195,9 @@ const Anasayfa = (props) => {
             flex-shrink: 0;
           }
           .anasayfa-vector {
-            width: 275px;
-            height: 320px;
+            width: auto;
+            height: auto;
+            max-width: 280px;
             box-sizing: content-box;
           }
           .anasayfa-productlist {
@@ -1261,191 +1217,19 @@ const Anasayfa = (props) => {
             flex-shrink: 0;
           }
           .anasayfa-vector1 {
-            width: 275px;
-            height: 320px;
+            width: auto;
+            height: auto;
+            max-width: 280px;
             box-sizing: content-box;
           }
           .anasayfa-productlist1 {
             gap: var(--dl-space-space-oneandhalfunits);
+            border: 2px dashed rgba(120, 120, 120, 0.4);
             display: flex;
             overflow: hidden;
             flex-grow: 1;
             align-self: stretch;
             align-items: flex-start;
-          }
-          .anasayfa-product {
-            gap: 5px;
-            display: flex;
-            position: relative;
-            flex-grow: 1;
-            align-self: stretch;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .anasayfa-image01 {
-            width: auto;
-            height: auto;
-            flex-grow: 1;
-            align-self: stretch;
-          }
-          .anasayfa-texts {
-            gap: 5px;
-            display: flex;
-            z-index: 1;
-            align-self: stretch;
-            align-items: center;
-            flex-direction: column;
-          }
-          .anasayfa-producttext {
-            gap: 5px;
-            display: flex;
-            align-self: stretch;
-            align-items: center;
-            flex-direction: column;
-          }
-          .anasayfa-text028 {
-            color: rgba(51, 51, 51, 1);
-            height: auto;
-            font-size: 13px;
-            align-self: stretch;
-            font-style: Regular;
-            text-align: center;
-            font-family: Marcellus SC;
-            font-weight: 400;
-            line-height: 19.600000381469727px;
-            font-stretch: normal;
-            text-decoration: none;
-          }
-          .anasayfa-text030 {
-            color: rgba(165, 165, 165, 1);
-            height: auto;
-            font-size: 13px;
-            align-self: stretch;
-            font-style: Regular;
-            text-align: center;
-            font-family: Lora;
-            font-weight: 400;
-            line-height: 21.280000686645508px;
-            font-stretch: normal;
-            text-decoration: none;
-          }
-          .anasayfa-productprice {
-            gap: 2px;
-            display: flex;
-            align-self: stretch;
-            align-items: center;
-            flex-shrink: 0;
-            justify-content: center;
-          }
-          .anasayfa-oldprice {
-            display: flex;
-            align-items: flex-start;
-          }
-          .anasayfa-text032 {
-            color: rgba(187, 187, 187, 1);
-            width: 7px;
-            height: auto;
-            font-size: 13px;
-            font-style: Regular;
-            text-align: center;
-            font-family: Lora;
-            font-weight: 400;
-            line-height: 16.3799991607666px;
-            font-stretch: normal;
-            text-decoration: none;
-          }
-          .anasayfa-text033 {
-            color: rgba(187, 187, 187, 1);
-            width: 52px;
-            height: auto;
-            font-size: 12px;
-            font-style: Regular;
-            text-align: center;
-            font-family: Lora;
-            font-weight: 400;
-            line-height: 16.3799991607666px;
-            font-stretch: normal;
-            text-decoration: line-through;
-          }
-          .anasayfa-newprice {
-            display: flex;
-            align-items: flex-start;
-          }
-          .anasayfa-text035 {
-            color: rgba(195, 147, 91, 1);
-            width: 8px;
-            height: auto;
-            font-size: 14px;
-            font-style: Regular;
-            text-align: center;
-            font-family: Lora;
-            font-weight: 400;
-            line-height: 18.200000762939453px;
-            font-stretch: normal;
-            text-decoration: none;
-          }
-          .anasayfa-text036 {
-            color: rgba(195, 147, 91, 1);
-            width: 57px;
-            height: auto;
-            font-size: 14px;
-            font-style: Regular;
-            text-align: center;
-            font-family: Lora;
-            font-weight: 400;
-            line-height: 18.200000762939453px;
-            font-stretch: normal;
-            text-decoration: none;
-          }
-          .anasayfa-ribbons {
-            gap: 10px;
-            display: flex;
-            z-index: 2;
-            align-items: center;
-            flex-direction: column;
-          }
-          .anasayfa-soldout {
-            gap: 10px;
-            display: flex;
-            padding: 10px;
-            align-items: center;
-            justify-content: center;
-          }
-          .anasayfa-text038 {
-            color: rgba(36, 36, 36, 1);
-            height: auto;
-            font-size: 12px;
-            font-style: Regular;
-            text-align: center;
-            font-family: Lora;
-            font-weight: 400;
-            line-height: 14.399999618530273px;
-            font-stretch: normal;
-            text-decoration: none;
-          }
-          .anasayfa-ribbona {
-            gap: 10px;
-            width: 50px;
-            height: 50px;
-            display: flex;
-            padding: 7px 5px;
-            align-items: center;
-            flex-shrink: 0;
-            border-radius: 35px;
-            justify-content: center;
-            background-color: rgba(67, 142, 68, 1);
-          }
-          .anasayfa-text040 {
-            color: rgba(255, 255, 255, 1);
-            height: auto;
-            font-size: 14px;
-            font-style: Medium;
-            text-align: center;
-            font-family: Lora;
-            font-weight: 500;
-            line-height: 16.799999237060547px;
-            font-stretch: normal;
-            text-decoration: none;
           }
           .anasayfa-slogansection1 {
             gap: var(--dl-space-space-oneandhalfunits);
@@ -1458,7 +1242,7 @@ const Anasayfa = (props) => {
             padding-right: var(--dl-space-space-fourunits);
             padding-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .anasayfa-image02 {
+          .anasayfa-image01 {
             width: auto;
             height: 400px;
           }
@@ -1467,6 +1251,7 @@ const Anasayfa = (props) => {
             flex: 1;
             width: 587.5px;
             display: flex;
+            padding: var(--dl-space-space-twounits);
             flex-grow: 1;
             align-items: flex-start;
             flex-shrink: 0;
@@ -1481,7 +1266,7 @@ const Anasayfa = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .anasayfa-text042 {
+          .anasayfa-text028 {
             color: rgba(36, 36, 36, 1);
             height: auto;
             font-size: 38px;
@@ -1494,7 +1279,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-text044 {
+          .anasayfa-text030 {
             color: rgba(119, 119, 119, 1);
             height: auto;
             font-size: 14px;
@@ -1518,7 +1303,7 @@ const Anasayfa = (props) => {
             width: 4px;
             height: 45px;
           }
-          .anasayfa-text046 {
+          .anasayfa-text032 {
             color: rgba(119, 119, 119, 1);
             height: auto;
             flex-grow: 1;
@@ -1583,7 +1368,7 @@ const Anasayfa = (props) => {
             width: 30px;
             height: 30px;
           }
-          .anasayfa-text048 {
+          .anasayfa-text034 {
             color: rgba(36, 36, 36, 1);
             width: 78px;
             height: auto;
@@ -1621,7 +1406,7 @@ const Anasayfa = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .anasayfa-text050 {
+          .anasayfa-text036 {
             color: rgba(195, 147, 91, 1);
             height: auto;
             font-size: 21px;
@@ -1634,7 +1419,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-text052 {
+          .anasayfa-text038 {
             color: rgba(36, 36, 36, 1);
             height: auto;
             font-size: 29px;
@@ -1647,7 +1432,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-text054 {
+          .anasayfa-text040 {
             color: rgba(119, 119, 119, 1);
             height: auto;
             font-size: 13px;
@@ -1667,6 +1452,184 @@ const Anasayfa = (props) => {
             align-self: stretch;
             align-items: flex-start;
             flex-shrink: 0;
+          }
+          .anasayfa-product {
+            gap: 5px;
+            width: 280px;
+            display: flex;
+            position: relative;
+            flex-grow: 1;
+            align-items: flex-start;
+            flex-shrink: 0;
+            flex-direction: column;
+          }
+          .anasayfa-image02 {
+            width: auto;
+            height: auto;
+            flex-grow: 1;
+            align-self: stretch;
+          }
+          .anasayfa-texts {
+            gap: 5px;
+            display: flex;
+            z-index: 1;
+            align-self: stretch;
+            align-items: center;
+            flex-direction: column;
+          }
+          .anasayfa-producttext {
+            gap: 5px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            flex-direction: column;
+          }
+          .anasayfa-text042 {
+            color: rgba(51, 51, 51, 1);
+            height: auto;
+            font-size: 13px;
+            align-self: stretch;
+            font-style: Regular;
+            text-align: center;
+            font-family: Marcellus SC;
+            font-weight: 400;
+            line-height: 19.600000381469727px;
+            font-stretch: normal;
+            text-decoration: none;
+          }
+          .anasayfa-text044 {
+            color: rgba(165, 165, 165, 1);
+            height: auto;
+            font-size: 13px;
+            align-self: stretch;
+            font-style: Regular;
+            text-align: center;
+            font-family: Lora;
+            font-weight: 400;
+            line-height: 21.280000686645508px;
+            font-stretch: normal;
+            text-decoration: none;
+          }
+          .anasayfa-productprice {
+            gap: 2px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            flex-shrink: 0;
+            justify-content: center;
+          }
+          .anasayfa-oldprice {
+            display: flex;
+            align-items: flex-start;
+          }
+          .anasayfa-text046 {
+            color: rgba(187, 187, 187, 1);
+            width: 7px;
+            height: auto;
+            font-size: 13px;
+            font-style: Regular;
+            text-align: center;
+            font-family: Lora;
+            font-weight: 400;
+            line-height: 16.3799991607666px;
+            font-stretch: normal;
+            text-decoration: none;
+          }
+          .anasayfa-text047 {
+            color: rgba(187, 187, 187, 1);
+            width: 52px;
+            height: auto;
+            font-size: 12px;
+            font-style: Regular;
+            text-align: center;
+            font-family: Lora;
+            font-weight: 400;
+            line-height: 16.3799991607666px;
+            font-stretch: normal;
+            text-decoration: line-through;
+          }
+          .anasayfa-newprice {
+            display: flex;
+            align-items: flex-start;
+          }
+          .anasayfa-text049 {
+            color: rgba(195, 147, 91, 1);
+            width: 8px;
+            height: auto;
+            font-size: 14px;
+            font-style: Regular;
+            text-align: center;
+            font-family: Lora;
+            font-weight: 400;
+            line-height: 18.200000762939453px;
+            font-stretch: normal;
+            text-decoration: none;
+          }
+          .anasayfa-text050 {
+            color: rgba(195, 147, 91, 1);
+            width: 57px;
+            height: auto;
+            font-size: 14px;
+            font-style: Regular;
+            text-align: center;
+            font-family: Lora;
+            font-weight: 400;
+            line-height: 18.200000762939453px;
+            font-stretch: normal;
+            text-decoration: none;
+          }
+          .anasayfa-ribbons {
+            gap: 10px;
+            top: 0px;
+            left: 0px;
+            display: flex;
+            z-index: 2;
+            position: absolute;
+            align-items: center;
+            flex-direction: column;
+          }
+          .anasayfa-soldout {
+            gap: 10px;
+            display: flex;
+            padding: 10px;
+            align-items: center;
+            justify-content: center;
+          }
+          .anasayfa-text052 {
+            color: rgba(36, 36, 36, 1);
+            height: auto;
+            font-size: 12px;
+            font-style: Regular;
+            text-align: center;
+            font-family: Lora;
+            font-weight: 400;
+            line-height: 14.399999618530273px;
+            font-stretch: normal;
+            text-decoration: none;
+          }
+          .anasayfa-ribbona {
+            gap: 10px;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            padding: 7px 5px;
+            align-items: center;
+            flex-shrink: 0;
+            border-radius: 35px;
+            justify-content: center;
+            background-color: rgba(67, 142, 68, 1);
+          }
+          .anasayfa-text054 {
+            color: rgba(255, 255, 255, 1);
+            height: auto;
+            font-size: 14px;
+            font-style: Medium;
+            text-align: center;
+            font-family: Lora;
+            font-weight: 500;
+            line-height: 16.799999237060547px;
+            font-stretch: normal;
+            text-decoration: none;
           }
           .anasayfa-product01 {
             gap: 5px;
@@ -2202,184 +2165,6 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-product04 {
-            gap: 5px;
-            width: 280px;
-            display: flex;
-            position: relative;
-            flex-grow: 1;
-            align-items: flex-start;
-            flex-shrink: 0;
-            flex-direction: column;
-          }
-          .anasayfa-image06 {
-            width: auto;
-            height: auto;
-            flex-grow: 1;
-            align-self: stretch;
-          }
-          .anasayfa-texts04 {
-            gap: 5px;
-            display: flex;
-            z-index: 1;
-            align-self: stretch;
-            align-items: center;
-            flex-direction: column;
-          }
-          .anasayfa-producttext4 {
-            gap: 5px;
-            display: flex;
-            align-self: stretch;
-            align-items: center;
-            flex-direction: column;
-          }
-          .anasayfa-text098 {
-            color: rgba(51, 51, 51, 1);
-            height: auto;
-            font-size: 13px;
-            align-self: stretch;
-            font-style: Regular;
-            text-align: center;
-            font-family: Marcellus SC;
-            font-weight: 400;
-            line-height: 19.600000381469727px;
-            font-stretch: normal;
-            text-decoration: none;
-          }
-          .anasayfa-text100 {
-            color: rgba(165, 165, 165, 1);
-            height: auto;
-            font-size: 13px;
-            align-self: stretch;
-            font-style: Regular;
-            text-align: center;
-            font-family: Lora;
-            font-weight: 400;
-            line-height: 21.280000686645508px;
-            font-stretch: normal;
-            text-decoration: none;
-          }
-          .anasayfa-productprice04 {
-            gap: 2px;
-            display: flex;
-            align-self: stretch;
-            align-items: center;
-            flex-shrink: 0;
-            justify-content: center;
-          }
-          .anasayfa-oldprice04 {
-            display: flex;
-            align-items: flex-start;
-          }
-          .anasayfa-text102 {
-            color: rgba(187, 187, 187, 1);
-            width: 7px;
-            height: auto;
-            font-size: 13px;
-            font-style: Regular;
-            text-align: center;
-            font-family: Lora;
-            font-weight: 400;
-            line-height: 16.3799991607666px;
-            font-stretch: normal;
-            text-decoration: none;
-          }
-          .anasayfa-text103 {
-            color: rgba(187, 187, 187, 1);
-            width: 52px;
-            height: auto;
-            font-size: 12px;
-            font-style: Regular;
-            text-align: center;
-            font-family: Lora;
-            font-weight: 400;
-            line-height: 16.3799991607666px;
-            font-stretch: normal;
-            text-decoration: line-through;
-          }
-          .anasayfa-newprice04 {
-            display: flex;
-            align-items: flex-start;
-          }
-          .anasayfa-text105 {
-            color: rgba(195, 147, 91, 1);
-            width: 8px;
-            height: auto;
-            font-size: 14px;
-            font-style: Regular;
-            text-align: center;
-            font-family: Lora;
-            font-weight: 400;
-            line-height: 18.200000762939453px;
-            font-stretch: normal;
-            text-decoration: none;
-          }
-          .anasayfa-text106 {
-            color: rgba(195, 147, 91, 1);
-            width: 57px;
-            height: auto;
-            font-size: 14px;
-            font-style: Regular;
-            text-align: center;
-            font-family: Lora;
-            font-weight: 400;
-            line-height: 18.200000762939453px;
-            font-stretch: normal;
-            text-decoration: none;
-          }
-          .anasayfa-ribbons4 {
-            gap: 10px;
-            top: 0px;
-            left: 0px;
-            display: flex;
-            z-index: 2;
-            position: absolute;
-            align-items: center;
-            flex-direction: column;
-          }
-          .anasayfa-soldout4 {
-            gap: 10px;
-            display: flex;
-            padding: 10px;
-            align-items: center;
-            justify-content: center;
-          }
-          .anasayfa-text108 {
-            color: rgba(36, 36, 36, 1);
-            height: auto;
-            font-size: 12px;
-            font-style: Regular;
-            text-align: center;
-            font-family: Lora;
-            font-weight: 400;
-            line-height: 14.399999618530273px;
-            font-stretch: normal;
-            text-decoration: none;
-          }
-          .anasayfa-ribbona4 {
-            gap: 10px;
-            width: 50px;
-            height: 50px;
-            display: flex;
-            padding: 7px 5px;
-            align-items: center;
-            flex-shrink: 0;
-            border-radius: 35px;
-            justify-content: center;
-            background-color: rgba(67, 142, 68, 1);
-          }
-          .anasayfa-text110 {
-            color: rgba(255, 255, 255, 1);
-            height: auto;
-            font-size: 14px;
-            font-style: Medium;
-            text-align: center;
-            font-family: Lora;
-            font-weight: 500;
-            line-height: 16.799999237060547px;
-            font-stretch: normal;
-            text-decoration: none;
-          }
           .anasayfa-indirimsection {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
@@ -2391,9 +2176,10 @@ const Anasayfa = (props) => {
             padding-right: var(--dl-space-space-fourunits);
             padding-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .anasayfa-image07 {
+          .anasayfa-image06 {
+            flex: 1;
             width: auto;
-            height: 400px;
+            height: auto;
             flex-grow: 1;
           }
           .anasayfa-indirimcorner {
@@ -2406,7 +2192,7 @@ const Anasayfa = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .anasayfa-texts05 {
+          .anasayfa-texts04 {
             gap: 20px;
             display: flex;
             align-self: stretch;
@@ -2419,7 +2205,7 @@ const Anasayfa = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .anasayfa-text112 {
+          .anasayfa-text098 {
             color: rgba(195, 147, 91, 1);
             width: 141px;
             height: auto;
@@ -2432,7 +2218,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-text114 {
+          .anasayfa-text100 {
             color: rgba(36, 36, 36, 1);
             width: 266px;
             height: auto;
@@ -2445,7 +2231,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-text116 {
+          .anasayfa-text102 {
             color: rgba(36, 36, 36, 1);
             height: auto;
             font-size: 40px;
@@ -2458,7 +2244,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-text118 {
+          .anasayfa-text104 {
             color: rgba(119, 119, 119, 1);
             height: auto;
             font-size: 14px;
@@ -2486,7 +2272,7 @@ const Anasayfa = (props) => {
             justify-content: center;
             background-color: rgba(33, 33, 33, 1);
           }
-          .anasayfa-text120 {
+          .anasayfa-text106 {
             color: rgba(255, 255, 255, 1);
             height: auto;
             font-size: 13px;
@@ -2508,7 +2294,7 @@ const Anasayfa = (props) => {
             border-width: 2px;
             justify-content: center;
           }
-          .anasayfa-text122 {
+          .anasayfa-text108 {
             color: rgba(51, 51, 51, 1);
             height: auto;
             font-size: 13px;
@@ -2545,7 +2331,7 @@ const Anasayfa = (props) => {
             justify-content: center;
             background-image: url('https://images.unsplash.com/photo-1608042314453-ae338d80c427?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDh8fGpld2Vscnl8ZW58MHx8fHwxNjk4NTgxMTk1fDA&ixlib=rb-4.0.3&w=200');
           }
-          .anasayfa-texts06 {
+          .anasayfa-texts05 {
             gap: 10px;
             flex: 1;
             width: auto;
@@ -2557,14 +2343,14 @@ const Anasayfa = (props) => {
             flex-direction: column;
             justify-content: flex-end;
           }
-          .anasayfa-texts07 {
+          .anasayfa-texts06 {
             gap: 10px;
             display: flex;
             align-self: stretch;
             align-items: flex-start;
             flex-direction: column;
           }
-          .anasayfa-text124 {
+          .anasayfa-text110 {
             color: rgba(86, 86, 86, 1);
             height: auto;
             font-size: 17px;
@@ -2577,7 +2363,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-text126 {
+          .anasayfa-text112 {
             color: rgba(36, 36, 36, 1);
             height: auto;
             font-size: 54px;
@@ -2590,7 +2376,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-text128 {
+          .anasayfa-text114 {
             color: rgba(36, 36, 36, 1);
             height: auto;
             font-size: 54px;
@@ -2603,7 +2389,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-text130 {
+          .anasayfa-text116 {
             color: rgba(45, 42, 42, 1);
             height: auto;
             font-size: 14px;
@@ -2624,7 +2410,7 @@ const Anasayfa = (props) => {
             justify-content: center;
             background-color: rgba(33, 33, 33, 1);
           }
-          .anasayfa-text132 {
+          .anasayfa-text118 {
             color: rgba(255, 255, 255, 1);
             height: auto;
             font-size: 13px;
@@ -2653,7 +2439,7 @@ const Anasayfa = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .anasayfa-text134 {
+          .anasayfa-text120 {
             color: rgba(51, 51, 51, 1);
             height: auto;
             font-size: 18px;
@@ -2672,6 +2458,108 @@ const Anasayfa = (props) => {
             align-self: stretch;
             align-items: flex-start;
             flex-direction: column;
+          }
+          .anasayfa-product04 {
+            gap: var(--dl-space-space-halfunit);
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            flex-shrink: 0;
+          }
+          .anasayfa-image07 {
+            width: 65px;
+            height: 65px;
+          }
+          .anasayfa-texts07 {
+            gap: var(--dl-space-space-halfunit);
+            flex: 1;
+            width: auto;
+            display: flex;
+            flex-grow: 1;
+            align-items: flex-start;
+            flex-shrink: 0;
+            flex-direction: column;
+          }
+          .anasayfa-text122 {
+            color: rgba(51, 51, 51, 1);
+            height: auto;
+            font-size: 13px;
+            align-self: stretch;
+            font-style: Regular;
+            text-align: left;
+            font-family: Marcellus SC;
+            font-weight: 400;
+            line-height: 19.600000381469727px;
+            font-stretch: normal;
+            text-decoration: none;
+          }
+          .anasayfa-productprice04 {
+            gap: 2px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            flex-shrink: 0;
+            justify-content: flex-start;
+          }
+          .anasayfa-oldprice04 {
+            display: flex;
+            align-items: flex-start;
+          }
+          .anasayfa-text124 {
+            color: rgba(187, 187, 187, 1);
+            width: 7px;
+            height: auto;
+            font-size: 13px;
+            font-style: Regular;
+            text-align: center;
+            font-family: Lora;
+            font-weight: 400;
+            line-height: 16.3799991607666px;
+            font-stretch: normal;
+            text-decoration: none;
+          }
+          .anasayfa-text125 {
+            color: rgba(187, 187, 187, 1);
+            width: 52px;
+            height: auto;
+            font-size: 12px;
+            font-style: Regular;
+            text-align: center;
+            font-family: Lora;
+            font-weight: 400;
+            line-height: 16.3799991607666px;
+            font-stretch: normal;
+            text-decoration: line-through;
+          }
+          .anasayfa-newprice04 {
+            display: flex;
+            align-items: flex-start;
+          }
+          .anasayfa-text127 {
+            color: rgba(195, 147, 91, 1);
+            width: 8px;
+            height: auto;
+            font-size: 14px;
+            font-style: Regular;
+            text-align: center;
+            font-family: Lora;
+            font-weight: 400;
+            line-height: 18.200000762939453px;
+            font-stretch: normal;
+            text-decoration: none;
+          }
+          .anasayfa-text128 {
+            color: rgba(195, 147, 91, 1);
+            width: 57px;
+            height: auto;
+            font-size: 14px;
+            font-style: Regular;
+            text-align: center;
+            font-family: Lora;
+            font-weight: 400;
+            line-height: 18.200000762939453px;
+            font-stretch: normal;
+            text-decoration: none;
           }
           .anasayfa-product05 {
             gap: var(--dl-space-space-halfunit);
@@ -2694,7 +2582,7 @@ const Anasayfa = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .anasayfa-text136 {
+          .anasayfa-text130 {
             color: rgba(51, 51, 51, 1);
             height: auto;
             font-size: 13px;
@@ -2719,7 +2607,7 @@ const Anasayfa = (props) => {
             display: flex;
             align-items: flex-start;
           }
-          .anasayfa-text138 {
+          .anasayfa-text132 {
             color: rgba(187, 187, 187, 1);
             width: 7px;
             height: auto;
@@ -2732,7 +2620,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-text139 {
+          .anasayfa-text133 {
             color: rgba(187, 187, 187, 1);
             width: 52px;
             height: auto;
@@ -2749,7 +2637,7 @@ const Anasayfa = (props) => {
             display: flex;
             align-items: flex-start;
           }
-          .anasayfa-text141 {
+          .anasayfa-text135 {
             color: rgba(195, 147, 91, 1);
             width: 8px;
             height: auto;
@@ -2762,7 +2650,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-text142 {
+          .anasayfa-text136 {
             color: rgba(195, 147, 91, 1);
             width: 57px;
             height: auto;
@@ -2796,7 +2684,7 @@ const Anasayfa = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .anasayfa-text144 {
+          .anasayfa-text138 {
             color: rgba(51, 51, 51, 1);
             height: auto;
             font-size: 13px;
@@ -2821,7 +2709,7 @@ const Anasayfa = (props) => {
             display: flex;
             align-items: flex-start;
           }
-          .anasayfa-text146 {
+          .anasayfa-text140 {
             color: rgba(187, 187, 187, 1);
             width: 7px;
             height: auto;
@@ -2834,7 +2722,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-text147 {
+          .anasayfa-text141 {
             color: rgba(187, 187, 187, 1);
             width: 52px;
             height: auto;
@@ -2851,7 +2739,7 @@ const Anasayfa = (props) => {
             display: flex;
             align-items: flex-start;
           }
-          .anasayfa-text149 {
+          .anasayfa-text143 {
             color: rgba(195, 147, 91, 1);
             width: 8px;
             height: auto;
@@ -2864,7 +2752,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-text150 {
+          .anasayfa-text144 {
             color: rgba(195, 147, 91, 1);
             width: 57px;
             height: auto;
@@ -2876,6 +2764,36 @@ const Anasayfa = (props) => {
             line-height: 18.200000762939453px;
             font-stretch: normal;
             text-decoration: none;
+          }
+          .anasayfa-yeniurunler {
+            gap: 20px;
+            flex: 1;
+            width: auto;
+            display: flex;
+            flex-grow: 1;
+            align-items: flex-start;
+            flex-shrink: 0;
+            flex-direction: column;
+          }
+          .anasayfa-text146 {
+            color: rgba(51, 51, 51, 1);
+            height: auto;
+            font-size: 18px;
+            align-self: stretch;
+            font-style: Regular;
+            text-align: left;
+            font-family: Marcellus SC;
+            font-weight: 400;
+            line-height: 25.200000762939453px;
+            font-stretch: normal;
+            text-decoration: none;
+          }
+          .anasayfa-productlist4 {
+            gap: 22px;
+            width: auto;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
           }
           .anasayfa-product07 {
             gap: var(--dl-space-space-halfunit);
@@ -2898,7 +2816,7 @@ const Anasayfa = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .anasayfa-text152 {
+          .anasayfa-text148 {
             color: rgba(51, 51, 51, 1);
             height: auto;
             font-size: 13px;
@@ -2923,7 +2841,7 @@ const Anasayfa = (props) => {
             display: flex;
             align-items: flex-start;
           }
-          .anasayfa-text154 {
+          .anasayfa-text150 {
             color: rgba(187, 187, 187, 1);
             width: 7px;
             height: auto;
@@ -2936,7 +2854,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-text155 {
+          .anasayfa-text151 {
             color: rgba(187, 187, 187, 1);
             width: 52px;
             height: auto;
@@ -2953,7 +2871,7 @@ const Anasayfa = (props) => {
             display: flex;
             align-items: flex-start;
           }
-          .anasayfa-text157 {
+          .anasayfa-text153 {
             color: rgba(195, 147, 91, 1);
             width: 8px;
             height: auto;
@@ -2966,7 +2884,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-text158 {
+          .anasayfa-text154 {
             color: rgba(195, 147, 91, 1);
             width: 57px;
             height: auto;
@@ -2978,36 +2896,6 @@ const Anasayfa = (props) => {
             line-height: 18.200000762939453px;
             font-stretch: normal;
             text-decoration: none;
-          }
-          .anasayfa-yeniurunler {
-            gap: 20px;
-            flex: 1;
-            width: auto;
-            display: flex;
-            flex-grow: 1;
-            align-items: flex-start;
-            flex-shrink: 0;
-            flex-direction: column;
-          }
-          .anasayfa-text160 {
-            color: rgba(51, 51, 51, 1);
-            height: auto;
-            font-size: 18px;
-            align-self: stretch;
-            font-style: Regular;
-            text-align: left;
-            font-family: Marcellus SC;
-            font-weight: 400;
-            line-height: 25.200000762939453px;
-            font-stretch: normal;
-            text-decoration: none;
-          }
-          .anasayfa-productlist4 {
-            gap: 22px;
-            width: auto;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
           }
           .anasayfa-product08 {
             gap: var(--dl-space-space-halfunit);
@@ -3030,7 +2918,7 @@ const Anasayfa = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .anasayfa-text162 {
+          .anasayfa-text156 {
             color: rgba(51, 51, 51, 1);
             height: auto;
             font-size: 13px;
@@ -3055,7 +2943,7 @@ const Anasayfa = (props) => {
             display: flex;
             align-items: flex-start;
           }
-          .anasayfa-text164 {
+          .anasayfa-text158 {
             color: rgba(187, 187, 187, 1);
             width: 7px;
             height: auto;
@@ -3068,7 +2956,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-text165 {
+          .anasayfa-text159 {
             color: rgba(187, 187, 187, 1);
             width: 52px;
             height: auto;
@@ -3085,7 +2973,7 @@ const Anasayfa = (props) => {
             display: flex;
             align-items: flex-start;
           }
-          .anasayfa-text167 {
+          .anasayfa-text161 {
             color: rgba(195, 147, 91, 1);
             width: 8px;
             height: auto;
@@ -3098,7 +2986,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-text168 {
+          .anasayfa-text162 {
             color: rgba(195, 147, 91, 1);
             width: 57px;
             height: auto;
@@ -3132,7 +3020,7 @@ const Anasayfa = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .anasayfa-text170 {
+          .anasayfa-text164 {
             color: rgba(51, 51, 51, 1);
             height: auto;
             font-size: 13px;
@@ -3157,7 +3045,7 @@ const Anasayfa = (props) => {
             display: flex;
             align-items: flex-start;
           }
-          .anasayfa-text172 {
+          .anasayfa-text166 {
             color: rgba(187, 187, 187, 1);
             width: 7px;
             height: auto;
@@ -3170,7 +3058,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-text173 {
+          .anasayfa-text167 {
             color: rgba(187, 187, 187, 1);
             width: 52px;
             height: auto;
@@ -3187,7 +3075,7 @@ const Anasayfa = (props) => {
             display: flex;
             align-items: flex-start;
           }
-          .anasayfa-text175 {
+          .anasayfa-text169 {
             color: rgba(195, 147, 91, 1);
             width: 8px;
             height: auto;
@@ -3200,109 +3088,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-text176 {
-            color: rgba(195, 147, 91, 1);
-            width: 57px;
-            height: auto;
-            font-size: 14px;
-            font-style: Regular;
-            text-align: center;
-            font-family: Lora;
-            font-weight: 400;
-            line-height: 18.200000762939453px;
-            font-stretch: normal;
-            text-decoration: none;
-          }
-          .anasayfa-product10 {
-            gap: var(--dl-space-space-halfunit);
-            display: flex;
-            align-self: stretch;
-            align-items: center;
-            flex-shrink: 0;
-          }
-          .anasayfa-image13 {
-            width: 65px;
-            height: 65px;
-          }
-          .anasayfa-texts13 {
-            gap: var(--dl-space-space-halfunit);
-            flex: 1;
-            width: auto;
-            display: flex;
-            flex-grow: 1;
-            align-items: flex-start;
-            flex-shrink: 0;
-            flex-direction: column;
-          }
-          .anasayfa-text178 {
-            color: rgba(51, 51, 51, 1);
-            height: auto;
-            font-size: 13px;
-            align-self: stretch;
-            font-style: Regular;
-            text-align: left;
-            font-family: Marcellus SC;
-            font-weight: 400;
-            line-height: 19.600000381469727px;
-            font-stretch: normal;
-            text-decoration: none;
-          }
-          .anasayfa-productprice10 {
-            gap: 2px;
-            display: flex;
-            align-self: stretch;
-            align-items: center;
-            flex-shrink: 0;
-            justify-content: flex-start;
-          }
-          .anasayfa-oldprice10 {
-            display: flex;
-            align-items: flex-start;
-          }
-          .anasayfa-text180 {
-            color: rgba(187, 187, 187, 1);
-            width: 7px;
-            height: auto;
-            font-size: 13px;
-            font-style: Regular;
-            text-align: center;
-            font-family: Lora;
-            font-weight: 400;
-            line-height: 16.3799991607666px;
-            font-stretch: normal;
-            text-decoration: none;
-          }
-          .anasayfa-text181 {
-            color: rgba(187, 187, 187, 1);
-            width: 52px;
-            height: auto;
-            font-size: 12px;
-            font-style: Regular;
-            text-align: center;
-            font-family: Lora;
-            font-weight: 400;
-            line-height: 16.3799991607666px;
-            font-stretch: normal;
-            text-decoration: line-through;
-          }
-          .anasayfa-newprice10 {
-            display: flex;
-            align-items: flex-start;
-          }
-          .anasayfa-text183 {
-            color: rgba(195, 147, 91, 1);
-            width: 8px;
-            height: auto;
-            font-size: 14px;
-            font-style: Regular;
-            text-align: center;
-            font-family: Lora;
-            font-weight: 400;
-            line-height: 18.200000762939453px;
-            font-stretch: normal;
-            text-decoration: none;
-          }
-          .anasayfa-text184 {
+          .anasayfa-text170 {
             color: rgba(195, 147, 91, 1);
             width: 57px;
             height: auto;
@@ -3333,7 +3119,7 @@ const Anasayfa = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .anasayfa-text186 {
+          .anasayfa-text172 {
             color: rgba(195, 147, 91, 1);
             height: auto;
             font-size: 21px;
@@ -3346,7 +3132,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-text188 {
+          .anasayfa-text174 {
             color: rgba(36, 36, 36, 1);
             height: auto;
             font-size: 29px;
@@ -3359,7 +3145,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-text190 {
+          .anasayfa-text176 {
             color: rgba(119, 119, 119, 1);
             height: auto;
             font-size: 13px;
@@ -3387,6 +3173,11 @@ const Anasayfa = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
+          .anasayfa-image13 {
+            width: auto;
+            height: 291px;
+            flex-grow: 1;
+          }
           .anasayfa-image14 {
             width: auto;
             height: 291px;
@@ -3398,11 +3189,6 @@ const Anasayfa = (props) => {
             flex-grow: 1;
           }
           .anasayfa-image16 {
-            width: auto;
-            height: 291px;
-            flex-grow: 1;
-          }
-          .anasayfa-image17 {
             width: auto;
             height: 291px;
             flex-grow: 1;
@@ -3435,26 +3221,24 @@ const Anasayfa = (props) => {
             padding-right: var(--dl-space-space-fourunits);
             padding-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .anasayfa-bultencorner {
-            gap: 20px;
+          .anasayfa-form {
+            gap: var(--dl-space-space-oneandhalfunits);
             flex: 1;
             width: auto;
+            height: auto;
             display: flex;
             padding: var(--dl-space-space-twounits);
-            flex-grow: 1;
-            align-items: center;
-            flex-shrink: 0;
             flex-direction: column;
-            background-color: rgba(255, 255, 255, 1);
+            background-color: var(--dl-color-gray-white);
           }
-          .anasayfa-texts14 {
+          .anasayfa-texts13 {
             gap: 10px;
             display: flex;
             align-self: stretch;
             align-items: center;
             flex-direction: column;
           }
-          .anasayfa-text192 {
+          .anasayfa-text178 {
             color: rgba(36, 36, 36, 1);
             height: auto;
             font-size: 30px;
@@ -3467,7 +3251,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-text194 {
+          .anasayfa-text180 {
             color: rgba(119, 119, 119, 1);
             height: auto;
             font-size: 14px;
@@ -3481,40 +3265,31 @@ const Anasayfa = (props) => {
             text-decoration: none;
           }
           .anasayfa-kayitol {
-            gap: 10px;
+            gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
             align-self: stretch;
             align-items: center;
             flex-shrink: 0;
             justify-content: center;
           }
-          .anasayfa-rectangle1 {
-            width: auto;
-            height: 42px;
-            flex-grow: 1;
-            border-color: rgba(0, 0, 0, 0.10000000149011612);
-            border-style: solid;
-            border-width: 1px;
+          .anasayfa-textinput {
+            flex: 1;
+            align-self: stretch;
+            border-color: var(--dl-color-gray-500);
           }
-          .anasayfa-btn {
-            gap: 10px;
-            display: flex;
-            padding: 10px 35px;
-            align-items: center;
-            justify-content: center;
-            background-color: rgba(195, 147, 91, 1);
-          }
-          .anasayfa-text196 {
+          .anasayfa-button7 {
             color: rgba(255, 255, 255, 1);
-            height: auto;
             font-size: 13px;
-            font-style: SemiBold;
             text-align: left;
-            font-family: Lora;
-            font-weight: 600;
-            line-height: 18px;
-            font-stretch: normal;
-            text-decoration: none;
+            font-family: 'Lora';
+            line-height: 1.18;
+            padding-top: 10px;
+            border-width: 0px;
+            padding-left: 35px;
+            border-radius: 0px;
+            padding-right: 35px;
+            padding-bottom: 10px;
+            background-color: #c3935b;
           }
           .anasayfa-bultentexts {
             gap: var(--dl-space-space-unit);
@@ -3526,7 +3301,7 @@ const Anasayfa = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .anasayfa-text198 {
+          .anasayfa-text182 {
             color: rgba(36, 36, 36, 1);
             height: auto;
             font-size: 29px;
@@ -3539,11 +3314,11 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-image18 {
+          .anasayfa-image17 {
             width: 100px;
             height: 86px;
           }
-          .anasayfa-text200 {
+          .anasayfa-text184 {
             color: rgba(119, 119, 119, 1);
             height: auto;
             font-size: 14px;
@@ -3562,7 +3337,7 @@ const Anasayfa = (props) => {
             align-items: flex-start;
             justify-content: center;
           }
-          .anasayfa-text202 {
+          .anasayfa-text186 {
             color: rgba(36, 36, 36, 1);
             width: 52px;
             height: auto;
@@ -3575,7 +3350,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-text204 {
+          .anasayfa-text188 {
             color: rgba(119, 119, 119, 1);
             width: 93px;
             height: auto;
@@ -3682,7 +3457,7 @@ const Anasayfa = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .anasayfa-text206 {
+          .anasayfa-text190 {
             color: rgba(119, 119, 119, 1);
             height: auto;
             font-size: 13px;
@@ -3695,7 +3470,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-text208 {
+          .anasayfa-text192 {
             color: rgba(119, 119, 119, 1);
             height: auto;
             font-size: 14px;
@@ -3740,7 +3515,7 @@ const Anasayfa = (props) => {
             height: 14px;
             position: absolute;
           }
-          .anasayfa-text210 {
+          .anasayfa-text194 {
             color: rgba(119, 119, 119, 1);
             height: auto;
             flex-grow: 1;
@@ -3766,7 +3541,7 @@ const Anasayfa = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .anasayfa-text212 {
+          .anasayfa-text196 {
             color: rgba(51, 51, 51, 1);
             height: auto;
             font-size: 18px;
@@ -3784,7 +3559,7 @@ const Anasayfa = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .anasayfa-text214 {
+          .anasayfa-text198 {
             color: rgba(119, 119, 119, 1);
             height: auto;
             font-size: 13px;
@@ -3796,7 +3571,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-text216 {
+          .anasayfa-text200 {
             color: rgba(119, 119, 119, 1);
             height: auto;
             font-size: 13px;
@@ -3814,7 +3589,7 @@ const Anasayfa = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .anasayfa-text218 {
+          .anasayfa-text202 {
             color: rgba(51, 51, 51, 1);
             height: auto;
             font-size: 18px;
@@ -3832,7 +3607,7 @@ const Anasayfa = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .anasayfa-text220 {
+          .anasayfa-text204 {
             color: rgba(119, 119, 119, 1);
             height: auto;
             font-size: 13px;
@@ -3844,7 +3619,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-text222 {
+          .anasayfa-text206 {
             color: rgba(119, 119, 119, 1);
             height: auto;
             font-size: 13px;
@@ -3856,7 +3631,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-text224 {
+          .anasayfa-text208 {
             color: rgba(119, 119, 119, 1);
             height: auto;
             font-size: 14px;
@@ -3868,7 +3643,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-text226 {
+          .anasayfa-text210 {
             color: rgba(119, 119, 119, 1);
             height: auto;
             font-size: 14px;
@@ -3887,7 +3662,7 @@ const Anasayfa = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .anasayfa-rectangle2 {
+          .anasayfa-rectangle1 {
             width: auto;
             height: 1px;
             align-self: stretch;
@@ -3899,7 +3674,7 @@ const Anasayfa = (props) => {
             flex-shrink: 0;
             justify-content: space-between;
           }
-          .anasayfa-text228 {
+          .anasayfa-text212 {
             color: rgb(119, 119, 119);
             width: auto;
             height: auto;
@@ -3912,7 +3687,7 @@ const Anasayfa = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
-          .anasayfa-image19 {
+          .anasayfa-image18 {
             width: 255px;
             height: 22px;
           }
@@ -3956,6 +3731,10 @@ const Anasayfa = (props) => {
             .anasayfa-kayitsection {
               flex-direction: column;
             }
+            .anasayfa-form {
+              width: 500px;
+              align-self: center;
+            }
           }
           @media (max-width: 767px) {
             .anasayfa-image {
@@ -3966,7 +3745,7 @@ const Anasayfa = (props) => {
               width: auto;
               align-self: stretch;
             }
-            .anasayfa-image02 {
+            .anasayfa-image01 {
               width: auto;
               height: auto;
               align-self: stretch;
@@ -3974,7 +3753,7 @@ const Anasayfa = (props) => {
             .anasayfa-slogan {
               width: auto;
             }
-            .anasayfa-image07 {
+            .anasayfa-image06 {
               width: auto;
               height: auto;
               align-self: stretch;
@@ -3987,6 +3766,9 @@ const Anasayfa = (props) => {
               align-self: stretch;
             }
             .anasayfa-teklifproducts {
+              width: auto;
+            }
+            .anasayfa-form {
               width: auto;
             }
             .anasayfa-up {
@@ -4057,10 +3839,6 @@ const Anasayfa = (props) => {
             .anasayfa-kayitsection {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
-            }
-            .anasayfa-bultencorner {
-              width: auto;
-              align-self: stretch;
             }
             .anasayfa-bultentexts {
               width: auto;

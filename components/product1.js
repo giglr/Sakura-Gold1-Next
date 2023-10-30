@@ -56,7 +56,6 @@ const Product1 = (props) => {
             flex-direction: column;
           }
           .product1-image {
-            width: auto;
             height: auto;
             flex-grow: 1;
             align-self: stretch;
@@ -189,7 +188,7 @@ const Product1 = (props) => {
 Product1.defaultProps = {
   IMAGE_alt: 'IMAGEI136',
   text1: '₺',
-  IMAGE_src: 'daa93daa-db41-41d2-9ca5-b4810b864b75',
+  IMAGE_src: '/external/imagei136-mrxg-200h-300w.png',
   text: '₺',
 }
 

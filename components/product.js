@@ -9,11 +9,7 @@ const Product = (props) => {
   return (
     <>
       <div className="product-product">
-        <img
-          alt={props.IMAGE_alt}
-          src={props.IMAGE_src}
-          className="product-image"
-        />
+        <img alt={props.IMAGE_alt} src={props.src} className="product-image" />
         <div className="product-texts">
           <div className="product-producttext">
             <span className="product-text">
@@ -51,6 +47,7 @@ const Product = (props) => {
             display: flex;
             position: relative;
             flex-grow: 1;
+            max-width: 280px;
             align-items: flex-start;
             flex-shrink: 0;
             flex-direction: column;
@@ -187,14 +184,14 @@ const Product = (props) => {
 }
 
 Product.defaultProps = {
-  IMAGE_src: '/external/imagei136-mrxg-200h.png',
+  src: '/external/imagei136-mrxg-200h.png',
   text1: '₺',
   text: '₺',
   IMAGE_alt: 'IMAGEI136',
 }
 
 Product.propTypes = {
-  IMAGE_src: PropTypes.string,
+  src: PropTypes.string,
   text1: PropTypes.string,
   text: PropTypes.string,
   IMAGE_alt: PropTypes.string,
